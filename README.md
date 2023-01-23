@@ -5,7 +5,7 @@
 - Pzybar
 
 ## Getting Started
-- Install OpenCV:
+- Install OpenCV
 ```
   pip install opencv-contrib-python
 ```
