@@ -23,6 +23,7 @@ while True:
                 data_URL = webbrowser.open(data)
                 print (data_URL) 
                 received_data = data
+                cv2.putText(frame, data, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
             else: 
                 print (data) 
                 received_data = data
@@ -32,3 +33,5 @@ while True:
     key = cv2.waitKey(1) 
     if key == ord('q'):
         break
+capture.release()
+cv2.destroyAllWindows()
