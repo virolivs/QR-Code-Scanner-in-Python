@@ -1,8 +1,8 @@
 # QR CODE SCANNER IN PYTHON
 
 ## Used technologies
-    - OpenCV
-    - Pzybar
+- OpenCV
+- Pzybar
 
 ## Getting Started
 - Install OpenCV:
